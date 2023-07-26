@@ -38,6 +38,7 @@ aside {
 	border-top:5px solid #1098ad;
 	border-bottom:5px solid #1098ad;
 	padding:50px 0px;
+	width:500px;
 }
 
 ul,ol {
@@ -79,6 +80,17 @@ li {
 	margin-bottom: 10px;
 }
 
+.post-img{
+	width:100%;
+	height:auto;
+}
+
+.container{
+	width:700px;
+	/* margin-left: auto;
+	margin-right:auto; */
+	margin: 0 auto; 
+}
 /* Descendant Selector Demonstration */
 
 /* footer p {
