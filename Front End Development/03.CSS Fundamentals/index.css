@@ -1,11 +1,12 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
 	font-family: sans-serif;
 	color: #444444;
+	border-top: #1098ad 10px solid;
 }
 
 h1,
@@ -14,33 +15,68 @@ h3 {
 	color: #1098ad;
 }
 
+.main-header{
+	background-color: #efeff1;
+	padding:20px 40px;
+	margin-bottom: 60px;	
+}
+
+/* .content-title{
+	margin-bottom: 20px;
+} */
+
+.content-header{
+	margin-bottom: 40px;
+}
+
+article{
+	margin-bottom:60px;
+}
+
+aside {
+	background-color: #efeff1;
+	border-top:5px solid #1098ad;
+	border-bottom:5px solid #1098ad;
+	padding:50px 0px;
+}
+
+ul,ol {
+	margin-left:50px;
+}
+
 h1 {
 	font-size: 26px;
 	text-transform: uppercase;
 	font-style: italic;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-size: 40px;
+	margin-bottom: 20px;
 }
 
 h3 {
 	font-size: 30px;
+	margin-bottom: 20px;
 }
 
 h4 {
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 p {
 	font-size: 22px;
 	line-height: 1.5;
+	margin-bottom: 20px;
 }
 
 li {
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 /* Descendant Selector Demonstration */
@@ -56,6 +92,7 @@ li {
 #author {
 	font-style: italic;
 	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 #copyright {
@@ -75,15 +112,6 @@ li {
 	list-style: none;
 }
 
-.main-header{
-	background-color: #efeff1;
-}
-
-aside {
-	background-color: #efeff1;
-	border-top:5px solid #1098ad;
-	border-bottom:5px solid #1098ad;
-}
 
 li:first-child{
 	font-weight: bold;
