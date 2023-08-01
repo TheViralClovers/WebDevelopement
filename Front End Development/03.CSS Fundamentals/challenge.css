@@ -1,7 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: sans-serif;
-
 	line-height: 1.4;
+}
+
+.container{
+	width:825px;
+	margin:0 auto;
 }
 
 /* PRODUCT */
@@ -15,6 +24,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	background-color: #e7e7e7;
+	padding :15px 0px;
 }
 
 /* PRODUCT INFORMATION */
@@ -26,12 +36,16 @@ body {
 	text-transform: uppercase;
 	color: #676767;
 	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 /* PRODUCT DETAILS */
+
 .more-info:link,
 .more-info:visited {
 	color: black;
+	display: inline-block;
+	margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -43,25 +57,41 @@ body {
 .details-title {
 	text-transform: uppercase;
 	font-size: 24px;
+	margin-bottom: 20px;
 }
 
-.detials-list{
-	list-style: square;
+.details-list {
+	list-style:square;
 }
 
 /* BUTTON */
 .add-to-cart {
-	width: 150px;
-	height: 30px;
+	width: 100%;
+	height: 40px;
 	text-transform: uppercase;
 	background-color: black;
 	color: white;
 	font-size: 20px;
 	border-style: none;
 	cursor: pointer;
+	padding: 15px;
 }
 
 .add-to-cart:hover {
 	color: black;
 	background-color: white;
+	border-top: solid black;
+	/* border-bottom : solid black; */
+}
+
+ul,ol{
+	margin-left: 20px;;
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+p{
+	margin-bottom: 10px;
 }

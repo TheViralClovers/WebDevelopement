@@ -38,7 +38,7 @@ aside {
 	border-top:5px solid #1098ad;
 	border-bottom:5px solid #1098ad;
 	padding:50px 0px;
-	width:500px;
+	width:700px;
 }
 
 ul,ol {
@@ -171,3 +171,9 @@ a:active{
 }
 
 /* LVHA acronym */
+
+nav a:link{
+	margin-right: 30px;
+	margin-top:10px;
+	display:inline-block;
+}
